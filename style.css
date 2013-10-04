@@ -154,8 +154,23 @@ nav #pub_nav a{
 	font-size: 0.9em;
 }
 
+#contenido .item .datos_item{
+text-align: right;
+
+}
+
+#contenido .item .datos_item .comm_item{
+	background: #878787;
+	text-decoration: none;
+	color: white;
+	padding: 4px;
+	margin: 0 1em 0 2em;
+	border-radius: 4px;
+}
+
 #contenido .item .datos_item .guardar_item{
 	text-decoration: none;
+	margin: 0 1em;
 }
 
 #contenido .item .datos_item .guardar_item:after{
@@ -173,6 +188,7 @@ nav #pub_nav a{
 	color: white;
 	padding: 0.2em 0.5em;
 	text-decoration: none;
+	float: left;
 }
 
 #contenido .item .imagen_item{
