@@ -25,13 +25,14 @@ body{
 
 footer{
 	background: #434343;
+	color: #7a7a7a;
+	padding: 1em 0;
+	text-align: center;
+	width: 100%
 }
 
-footer p {
-
-	color: #CCC;
-	text-align: center;
-	padding: 1em 0
+footer p{
+	margin: 0;
 }
 
 
