@@ -12,6 +12,7 @@
 a{
 	color: #dd4f24;
 }
+
 body{
 	background: #efefef;
 	color: #4c4c4c;
@@ -20,10 +21,19 @@ body{
 	margin: 0;
 }
 
-/* 
- comentario
+/*    comentario  */
 
- */
+footer{
+	background: #434343;
+}
+
+footer p {
+
+	color: #CCC;
+	text-align: center;
+	padding: 1em 0
+}
+
 
 header{
 	background: #434343;
@@ -75,14 +85,12 @@ header #logo img{
 nav{
 	background: #878787;
 	font-size: 0.9em;
-
 }
 
 nav ul{
 	list-style: none;
 	margin: 0;
 	padding: 0;
-
 }
 
 nav ul li{
@@ -99,7 +107,7 @@ nav ul li a{
 
 nav #flecha_nav a{
 	background: #22bce0;
-	padding: 0.5em 0;
+	padding: 0.5em 0.3em;
 	text-decoration: none;
 }
 
@@ -107,9 +115,8 @@ nav #flecha_nav a:after{
 	content: "\e000";
 	font-family: "icomoon";
 	font-size: 0.8em;
-	opacity: 0.5;
+	opacity: 0.6;
 }
-
 
 nav #pub_nav {
 	background: #dd4f24;
@@ -125,16 +132,18 @@ nav #pub_nav:after{
 	color: rgba(255,255,255,0.5);
 	font-size: 1.8em;
 	position: absolute;
-
 	top: 0;
 	right: 0;	
 }
 
 nav #pub_nav a{
-	
 	display: inline-block;
 	padding: 0.5em 1em;
 	text-decoration: none;
+}
+
+#bienvenida {
+	display: none;
 }
 
 #contenido {
@@ -176,11 +185,9 @@ text-align: right;
 #contenido .item .datos_item .guardar_item:after{
 	content: "\e003";
 	font-family: "icomoon";
-	color: #fd5;
+	color: #DDC910;
 	font-size: 1em;
 }
-
-
 
 #contenido .item .datos_item .tag_item{
 	background: #22bce0;
@@ -210,15 +217,16 @@ text-align: right;
 	color: #444;
 	text-decoration: none;
 }
+
 #contenido .item .votacion {
-background: white;
-margin: 3px 0 0 0;
-padding: 0.5em 0;
-position: absolute;
-text-align: center;
-top: 100%;
-width: 96px;
-border-radius: 0 0 0.5em 0.5em;
+	background: white;
+	margin: 3px 0 0 0;
+	padding: 0.5em 0;
+	position: absolute;
+	text-align: center;
+	top: 100%;
+	width: 96px;
+	border-radius: 0 0 0.5em 0.5em;
 }
 
 #contenido .item .votacion a {
@@ -232,11 +240,11 @@ border-radius: 0 0 0.5em 0.5em;
 	vertical-align: bottom;
 }
 
-
 #contenido .item .votacion .down:after {
 	content: "\e001";
 	color: red;
 }
+
 #contenido .item .votacion .up:after {
 	content: "\e002";
 	color: green;
